@@ -1,0 +1,80 @@
+{
+  "name": "test-1long-reactjs",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Thu Ngo",
+    "email": "thungo9801@gmail.com"
+  },
+  "dependencies": {
+    "@emotion/react": "11.11.1",
+    "@emotion/styled": "11.11.0",
+    "@mui/icons-material": "5.14.19",
+    "@mui/material": "5.14.19",
+    "@testing-library/jest-dom": "6.1.5",
+    "@testing-library/react": "14.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "29.5.10",
+    "@types/node": "11.9.4",
+    "@types/react": "16.8.4",
+    "@types/react-dom": "16.8.2",
+    "@types/react-redux": "^7.1.24",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/redux-thunk": "2.1.0",
+    "@types/styled-components": "5.1.32",
+    "axios": "1.6.2",
+    "formik": "2.4.5",
+    "gapi-script": "1.2.0",
+    "lodash": "4.17.21",
+    "notistack": "3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-google-login": "5.2.2",
+    "react-infinite-scroll-component": "6.1.0",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "5.0.1",
+    "react-virtualized": "9.22.5",
+    "redux": "4.0.1",
+    "redux-devtools-extension": "2.13.8",
+    "redux-persist": "6.0.0",
+    "redux-thunk": "2.3.0",
+    "reselect": "4.0.0",
+    "styled-components": "6.1.1",
+    "typesafe-actions": "3.1.0",
+    "web-vitals": "^2.1.4",
+    "yup": "1.3.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.202",
+    "@types/redux-persist": "^4.3.1",
+    "prettier": "1.16.4",
+    "tslint": "5.12.1",
+    "tslint-config-airbnb": "5.11.1",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.0.1",
+    "tslint-react": "3.6.0",
+    "tsutils": "3.9.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache",
+    "eject": "react-scripts eject",
+    "tslint:prettier-check": "tslint-config-prettier-check ./tslint.json",
+    "tslint": "tslint --format stylish --project ./tsconfig.json './src/**/*.ts{,x}'",
+    "prettier": "prettier --write ./src/**/*.ts{,x}",
+    "lint": "npm run tslint && npm run tslint:prettier-check",
+    "format": "npm run prettier"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
